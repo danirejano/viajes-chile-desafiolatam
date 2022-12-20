@@ -2,54 +2,80 @@
     --white: #fff;
     --negro: #000000;
     --celeste: #0DCAF0;
-  }
+}
   
   
   /* Selectores de etiqueta */
   
-  html {
-    scroll-behavior: auto !important;
-  }
-  
-  body {
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  header .navbar {
-      background-color: transparent !important;
+    html {
+        scroll-behavior: auto !important;
     }
   
-  h3 {
-    font-weight: 700;
-  }
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
   
+    header {
+        background-color: transparent !important;
+    }
   
-  h4 {
-    font-weight: 400;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-  }
+    h3 {
+        font-weight: 700;
+    }
+  
+    h4 {
+        font-weight: 400;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
   
   /* Selectores de clases */
-  .card-title, .card-text {
-      color: white;
-  }
+
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .bg-dark {
+        background-color: var(--negro) !important;
+    }
+
+    .navbar-collapse {
+        background-color: var(--negro);
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .navbar-toggler, .collapse {
+        color: var(--white) !important;
+    }
+
+    .navbar button {
+        border-color: white !important;
+    }
+
+    .navbar-toggler:focus {
+        background-color: var(--white) !important;
+    }
+
+    .card-title {
+        font-weight: 700;
+    }
   
-  .icono {
-    background-color: var(--celeste);
-    color: var(--white);
-  }
+    .icono {
+        background-color: var(--celeste);
+        color: var(--white);
+    }
   
-  .enviar {
-    background-color: var(--celeste);
-  }
+    .enviar {
+        background-color: var(--celeste);
+    }
   
-  .enviar:hover {
-    background-color: var(--white);
-    color: var(--negro);
-  }
+    .enviar:hover {
+        background-color: var(--white); 
+        color: var(--negro);
+    }
   
   /* Selectores de id */
   

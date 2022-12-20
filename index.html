@@ -15,9 +15,9 @@
   </head>
   <body>
 
-    <header class="container fixed-top">
-        <!-- Menúgi  -->
-        <nav class="navbar navbar-expand-lg bg-light">
+    <header class="fixed-top" id="menu">
+        <!-- Menú  -->
+        <nav class="container navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand d-flex align-items-center gap-2 text-white" href="#"><img src="./assets/img/viajes.svg" alt="logo viajes" width="30px">  Viajes Chile</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active text-white" aria-current="page" href="#inicio" style="font-weight: 300;">Inicio</a>
-                  <a class="nav-link text-white" href="#quienes-somos" style="font-weight: 300;">Quienes Somos</a>
+                  <a class="nav-link text-white d-none d-md-block" href="#quienes-somos" style="font-weight: 300;">Quienes Somos</a>
                   <a class="nav-link text-white" href="#destacados" style="font-weight: 300;">Destacados</a>
                   <a class="nav-link text-white" href="#contacto" style="font-weight: 300;">Contacto</a>
                 </div>
@@ -62,7 +62,7 @@
     </section>
 
     <!-- Quienes Somos -->
-    <section class="presentacion" style="background-color: #000000;">
+    <section class="presentacion d-none d-md-block" style="background-color: #000000;">
         <div class="container">
           <h3 class="titulo text-center pt-5 pb-3" style="color: white;" id="quienes-somos">¿QUIÉNES SOMOS?</h3>
           <hr style="color: white;">
@@ -93,8 +93,8 @@
               <div class="card h-100" style="background-color: #0DCAF0;">
                 <img src="./assets/img/card1.jpg" class="card-img-top img-fluid" style="height: 150px" alt="paisaje sur de Chile">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Torres del Paine</h5>
+                  <p class="card-text">El Parque Nacional Torres del Paine, en la región de la Patagonia de Chile, es conocido por sus altas montañas, los témpanos de azul brillante que se aferran a los glaciares y las pampas doradas (praderas) que albergan fauna poco común, como los guanacos.</p>
                 </div>
               </div>
             </div>
@@ -102,8 +102,8 @@
               <div class="card h-100" style="background-color: #0DCAF0;">
                 <img src="./assets/img/card2.jpg" class="card-img-top img-fluid" style="height: 150px" alt="Laguna del Maule">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a short card.</p>
+                  <h5 class="card-title">Nevado Tres Cruces</h5>
+                  <p class="card-text">El Parque Nacional Nevado Tres Cruces está entre las cordilleras Domeyko y Claudio Gay, en la Región de Atacama. Desde cualquiera de sus puntos podrás admirar el Ojos del Salado, el volcán más alto del planeta a 6 mil 879 msnm, en la frontera entre Chile y Argentina.</p>
                 </div>
               </div>
             </div>
@@ -111,8 +111,8 @@
               <div class="card h-100" style="background-color: #0DCAF0;">
                 <img src="./assets/img/card3.jpg" class="card-img-top img-fluid" style="height: 150px" alt="paisaje norte de Chile">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Salar de Atacama</h5>
+                  <p class="card-text">El salar de Atacama es el mayor depósito salino de Chile emplazado en la Región de Antofagasta y se sitúa exactamente entre dos comunas chilenas. La ciudad más cercana, San Pedro de Atacama, se ubica a 55 km al norte, mientras que la capital regional, Antofagasta, dista 316 km al oeste.</p>
                 </div>
               </div>
             </div>
@@ -120,8 +120,8 @@
               <div class="card h-100" style="background-color: #0DCAF0;">
                 <img src="./assets/img/card4.jpg" class="card-img-top img-fluid" style="height: 150px" alt="paisaje sur de Chile">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Parque Nacional Huerquehue</h5>
+                  <p class="card-text">El Parque Nacional Huerquehue está localizado en la Cordillera de los Andes, en la Región de la Araucanía de Chile, cercano al Lago Caburga.</p>
                 </div>
               </div>
             </div>
@@ -160,13 +160,13 @@
           <div class="row">
             <h4 class="col" style="color: white;">VIAJES CHILE</h4>
             <div class="rrss col">
-              <button type="button" class="btn btn-secondary p-1" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Github" style="border: none; background-color: transparent;"><a href="https://github.com/"><i class="fa-brands fa-github fa-2x" style="color: white;"></i></a>
+              <button type="button" class="btn btn-secondary p-1" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Github" style="border: none; background-color: transparent;"><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-2x" style="color: white;"></i></a>
               </button>
-              <button type="button" class="btn btn-secondary p-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin" style="border: none; background-color: transparent;"><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin fa-2x" style="color: white;"></i></a>
+              <button type="button" class="btn btn-secondary p-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linkedin" style="border: none; background-color: transparent;"><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2x" style="color: white;"></i></a>
               </button>
-              <button type="button" class="btn btn-secondary p-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter" style="border: none; background-color: transparent;"><a href="https://twitter.com"><i class="fa-brands fa-square-twitter fa-2x" style="color: white;"></i></a>
+              <button type="button" class="btn btn-secondary p-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter" style="border: none; background-color: transparent;"><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-square-twitter fa-2x" style="color: white;"></i></a>
               </button>
-              <button type="button" class="btn btn-secondary p-1" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Facebook" style="border: none; background-color: transparent;"><a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook fa-2x" style="color: white;"></i></a>
+              <button type="button" class="btn btn-secondary p-1" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Facebook" style="border: none; background-color: transparent;"><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-2x" style="color: white;"></i></a>
               </button>
           </div>
           </div>

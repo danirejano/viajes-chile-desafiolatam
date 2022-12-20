@@ -14,7 +14,24 @@ $(document).ready(function(){
         )
     })
 
+})
 
+
+$(function(){
+
+    $(window).scroll(function(){
+        if ($('#menu').offset().top > 300){
+            $('#menu').addClass('bg-dark');
+        } else {
+            $('#menu').removeClass('bg-dark');
+        }
+    });
+
+
+
+    $('.card-title').click(function(){
+        $('.card-text').toggle()
+    })
 
 
 
