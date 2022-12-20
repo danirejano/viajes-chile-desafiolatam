@@ -31,14 +31,34 @@
     align-items: center;
     justify-content: center;
   }
-
-
-/* Selectores de clases */
-
-
-
-/* Selectores de id */
-
-
-
-/* @Media */
+  
+  /* Selectores de clases */
+  .card-title, .card-text {
+      color: white;
+  }
+  
+  .icono {
+    background-color: var(--celeste);
+    color: var(--white);
+  }
+  
+  .enviar {
+    background-color: var(--celeste);
+  }
+  
+  .enviar:hover {
+    background-color: var(--white);
+    color: var(--negro);
+  }
+  
+  /* Selectores de id */
+  
+  
+  
+  /* @Media */
+  
+  @media (max-width: 575px){
+    .parrafo {
+      padding-bottom: 50px;
+    }
+  }
