@@ -1,0 +1,44 @@
+:root {
+    --white: #fff;
+    --negro: #000000;
+    --celeste: #0DCAF0;
+  }
+  
+  
+  /* Selectores de etiqueta */
+  
+  html {
+    scroll-behavior: auto !important;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  header .navbar {
+      background-color: transparent !important;
+    }
+  
+  h3 {
+    font-weight: 700;
+  }
+  
+  
+  h4 {
+    font-weight: 400;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+/* Selectores de clases */
+
+
+
+/* Selectores de id */
+
+
+
+/* @Media */
